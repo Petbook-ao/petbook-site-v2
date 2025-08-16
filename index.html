@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetBook | Seguro e Bem-Estar para Seu Pet</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/site.webmanifest">
-    <!--Start of Tawk.to Script-->
+    <!--Start of Tawk.to Script   -->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
@@ -32,27 +34,27 @@
             --white: #ffffff;
             --black: #2c3e50;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Poppins', sans-serif;
             color: var(--black);
             line-height: 1.6;
             background-color: var(--light);
         }
-        
+
         .container {
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 15px;
         }
-        
+
         /* Header */
         header {
             background-color: var(--white);
@@ -61,14 +63,14 @@
             width: 100%;
             z-index: 1000;
         }
-        
+
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 20px 0;
         }
-        
+
         .logo {
             font-size: 24px;
             font-weight: 700;
@@ -76,32 +78,32 @@
             display: flex;
             align-items: center;
         }
-        
+
         .logo i {
             margin-right: 10px;
             color: var(--secondary);
         }
-        
+
         .nav-links {
             display: flex;
             list-style: none;
         }
-        
+
         .nav-links li {
             margin-left: 30px;
         }
-        
+
         .nav-links a {
             text-decoration: none;
             color: var(--dark);
             font-weight: 500;
             transition: color 0.3s;
         }
-        
+
         .nav-links a:hover {
             color: var(--primary);
         }
-        
+
         .btn {
             display: inline-block;
             padding: 10px 20px;
@@ -111,104 +113,104 @@
             transition: all 0.3s;
             cursor: pointer;
         }
-        
+
         .btn-primary {
             background-color: var(--primary);
             color: var(--white);
             border: 2px solid var(--primary);
         }
-        
+
         .btn-primary:hover {
             background-color: transparent;
             color: var(--primary);
         }
-        
+
         .btn-secondary {
             background-color: var(--secondary);
             color: var(--white);
             border: 2px solid var(--secondary);
         }
-        
+
         .btn-secondary:hover {
             background-color: transparent;
             color: var(--secondary);
         }
-        
+
         /* Hero Section */
         .hero {
             padding: 150px 0 80px;
             background: linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(243, 156, 18, 0.1) 100%);
         }
-        
+
         .hero-content {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        
+
         .hero-text {
             flex: 1;
             padding-right: 50px;
         }
-        
+
         .hero-image {
             flex: 1;
             text-align: center;
         }
-        
+
         .hero-image img {
             max-width: 100%;
             height: auto;
             border-radius: 10px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
-        
+
         h1 {
             font-size: 42px;
             margin-bottom: 20px;
             color: var(--dark);
         }
-        
+
         .hero p {
             font-size: 18px;
             margin-bottom: 30px;
             color: var(--dark);
         }
-        
+
         .cta-buttons {
             display: flex;
             gap: 15px;
         }
-        
+
         /* Benefits */
         .benefits {
             padding: 80px 0;
             background-color: var(--white);
         }
-        
+
         .section-title {
             text-align: center;
             margin-bottom: 50px;
         }
-        
+
         .section-title h2 {
             font-size: 32px;
             color: var(--dark);
             margin-bottom: 15px;
         }
-        
+
         .section-title p {
             color: #7f8c8d;
             max-width: 700px;
             margin: 0 auto;
         }
-        
+
         .benefits-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
         }
-        
+
         .benefit-card {
             background-color: var(--light);
             padding: 30px;
@@ -216,37 +218,37 @@
             text-align: center;
             transition: transform 0.3s, box-shadow 0.3s;
         }
-        
+
         .benefit-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
-        
+
         .benefit-icon {
             font-size: 40px;
             color: var(--primary);
             margin-bottom: 20px;
         }
-        
+
         .benefit-card h3 {
             font-size: 20px;
             margin-bottom: 15px;
             color: var(--dark);
         }
-        
+
         /* How It Works */
         .how-it-works {
             padding: 80px 0;
             background: linear-gradient(135deg, rgba(46, 204, 113, 0.05) 0%, rgba(243, 156, 18, 0.05) 100%);
         }
-        
+
         .steps {
             display: flex;
             justify-content: space-between;
             margin-top: 50px;
             flex-wrap: wrap;
         }
-        
+
         .step {
             flex: 1;
             min-width: 250px;
@@ -255,7 +257,7 @@
             position: relative;
             margin-bottom: 30px;
         }
-        
+
         .step-number {
             width: 60px;
             height: 60px;
@@ -269,23 +271,23 @@
             font-weight: 700;
             margin: 0 auto 20px;
         }
-        
+
         .step h3 {
             font-size: 20px;
             margin-bottom: 15px;
             color: var(--dark);
         }
-        
+
         .step p {
             color: #7f8c8d;
         }
-        
+
         /* Plans */
         .plans {
             padding: 80px 0;
             background-color: var(--white);
         }
-        
+
         .plans-table {
             width: 100%;
             border-collapse: collapse;
@@ -294,46 +296,47 @@
             border-radius: 10px;
             overflow: hidden;
         }
-        
-        .plans-table th, .plans-table td {
+
+        .plans-table th,
+        .plans-table td {
             padding: 20px;
             text-align: center;
             border: 1px solid #eee;
         }
-        
+
         .plans-table th {
             background-color: var(--primary);
             color: var(--white);
             font-weight: 600;
         }
-        
+
         .plans-table tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        
+
         .plans-table .highlight {
             background-color: rgba(243, 156, 18, 0.1);
             font-weight: 600;
         }
-        
+
         .plans-table .price {
             font-size: 24px;
             font-weight: 700;
             color: var(--primary);
         }
-        
+
         /* Testimonials */
         .testimonials {
             padding: 80px 0;
             background: linear-gradient(135deg, rgba(46, 204, 113, 0.05) 0%, rgba(243, 156, 18, 0.05) 100%);
         }
-        
+
         .testimonial-slider {
             max-width: 800px;
             margin: 50px auto 0;
             position: relative;
         }
-        
+
         .testimonial {
             background-color: var(--white);
             padding: 30px;
@@ -342,29 +345,29 @@
             text-align: center;
             display: none;
         }
-        
+
         .testimonial.active {
             display: block;
         }
-        
+
         .testimonial-text {
             font-size: 18px;
             font-style: italic;
             margin-bottom: 20px;
             color: var(--dark);
         }
-        
+
         .testimonial-author {
             font-weight: 600;
             color: var(--primary);
         }
-        
+
         .testimonial-controls {
             display: flex;
             justify-content: center;
             margin-top: 30px;
         }
-        
+
         .testimonial-controls button {
             background: none;
             border: none;
@@ -374,24 +377,24 @@
             margin: 0 10px;
             transition: color 0.3s;
         }
-        
+
         .testimonial-controls button:hover {
             color: var(--primary);
         }
-        
+
         /* Features */
         .features {
             padding: 80px 0;
             background-color: var(--white);
         }
-        
+
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-top: 50px;
         }
-        
+
         .feature-card {
             display: flex;
             align-items: flex-start;
@@ -400,42 +403,42 @@
             border-radius: 10px;
             transition: transform 0.3s;
         }
-        
+
         .feature-card:hover {
             transform: translateY(-5px);
         }
-        
+
         .feature-icon {
             font-size: 24px;
             color: var(--primary);
             margin-right: 20px;
             flex-shrink: 0;
         }
-        
+
         .feature-content h3 {
             font-size: 20px;
             margin-bottom: 10px;
             color: var(--dark);
         }
-        
+
         /* FAQ */
         .faq {
             padding: 80px 0;
             background: linear-gradient(135deg, rgba(46, 204, 113, 0.05) 0%, rgba(243, 156, 18, 0.05) 100%);
         }
-        
+
         .faq-container {
             max-width: 800px;
             margin: 50px auto 0;
         }
-        
+
         .faq-item {
             margin-bottom: 15px;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
         }
-        
+
         .faq-question {
             background-color: var(--white);
             padding: 20px;
@@ -445,11 +448,11 @@
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .faq-question:hover {
             background-color: #f9f9f9;
         }
-        
+
         .faq-answer {
             background-color: var(--light);
             padding: 0 20px;
@@ -457,12 +460,12 @@
             overflow: hidden;
             transition: max-height 0.3s ease-out, padding 0.3s ease;
         }
-        
+
         .faq-answer.active {
             padding: 20px;
             max-height: 500px;
         }
-        
+
         /* CTA Section */
         .cta-section {
             padding: 80px 0;
@@ -470,72 +473,72 @@
             color: var(--white);
             text-align: center;
         }
-        
+
         .cta-section h2 {
             font-size: 32px;
             margin-bottom: 20px;
         }
-        
+
         .cta-section p {
             max-width: 700px;
             margin: 0 auto 30px;
             font-size: 18px;
         }
-        
+
         /* Footer */
         footer {
             background-color: var(--dark);
             color: var(--white);
             padding: 60px 0 20px;
         }
-        
+
         .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 40px;
             margin-bottom: 40px;
         }
-        
+
         .footer-column h3 {
             font-size: 18px;
             margin-bottom: 20px;
             color: var(--white);
         }
-        
+
         .footer-links {
             list-style: none;
         }
-        
+
         .footer-links li {
             margin-bottom: 10px;
         }
-        
+
         .footer-links a {
             color: #bdc3c7;
             text-decoration: none;
             transition: color 0.3s;
         }
-        
+
         .footer-links a:hover {
             color: var(--white);
         }
-        
+
         .social-links {
             display: flex;
             gap: 15px;
             margin-top: 20px;
         }
-        
+
         .social-links a {
             color: var(--white);
             font-size: 20px;
             transition: color 0.3s;
         }
-        
+
         .social-links a:hover {
             color: var(--primary);
         }
-        
+
         .footer-bottom {
             text-align: center;
             padding-top: 20px;
@@ -543,7 +546,7 @@
             color: #bdc3c7;
             font-size: 14px;
         }
-        
+
         /* Chatbot */
         .chatbot {
             position: fixed;
@@ -563,57 +566,58 @@
             z-index: 1000;
             transition: all 0.3s;
         }
-        
+
         .chatbot:hover {
             transform: scale(1.1);
         }
-        
+
         /* Responsive */
         @media (max-width: 992px) {
             .hero-content {
                 flex-direction: column;
             }
-            
+
             .hero-text {
                 padding-right: 0;
                 margin-bottom: 40px;
                 text-align: center;
             }
-            
+
             .cta-buttons {
                 justify-content: center;
             }
-            
+
             .steps {
                 flex-direction: column;
                 align-items: center;
             }
-            
+
             .step {
                 margin-bottom: 40px;
             }
         }
-        
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
             }
-            
+
             h1 {
                 font-size: 32px;
             }
-            
+
             .plans-table {
                 display: block;
                 overflow-x: auto;
             }
-            
+
             .testimonial-slider {
                 padding: 0 20px;
             }
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -640,17 +644,19 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                   <!--<h1>Proteção Completa para Quem Você Ama!</h1>--> 
+                    <!--<h1>Proteção Completa para Quem Você Ama!</h1>-->
                     <h1>A plataforma completa para quem ama Pets</h1>
-                    <p>Seguro saúde pet, veterinários, pet shops, rastreadores, identificação digital e mais – tudo em um só lugar.</p>
+                    <p>Seguro saúde pet, veterinários, pet shops, rastreadores, identificação digital e mais – tudo em
+                        um só lugar.</p>
                     <div class="cta-buttons">
-                      <!-- <a href="#plans" class="btn btn-secondary">Cotar Agora (Grátis)</a> -->
+                        <!-- <a href="#plans" class="btn btn-secondary">Cotar Agora (Grátis)</a> -->
                         <a href="#" class="btn btn-secondary">Baixar App</a>
                         <a href="#features" class="btn btn-primary">Saiba Mais</a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Família com cachorro">
+                    <img src="https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="Família com cachorro">
                 </div>
             </div>
         </div>
@@ -661,7 +667,8 @@
         <div class="container">
             <div class="section-title">
                 <h2>Por que escolher o PetBook?</h2>
-                <p>Oferecemos a melhor proteção e cuidados para seu pet com planos acessíveis e benefícios exclusivos.</p>
+                <p>Oferecemos a melhor proteção e cuidados para seu pet com planos acessíveis e benefícios exclusivos.
+                </p>
             </div>
             <div class="benefits-grid">
                 <div class="benefit-card">
@@ -730,6 +737,7 @@
                 <h2>Nossos Planos</h2>
                 <p>Escolha o plano ideal para as necessidades do seu pet.</p>
             </div>
+            <!-- 
             <table class="plans-table">
                 <thead>
                     <tr>
@@ -777,7 +785,71 @@
                         <td><a href="#" class="btn btn-secondary">Contratar</a></td>
                     </tr>
                 </tbody>
-            </table>
+            </table> 
+            -->
+
+                    <!-- Tabela de Planos -->
+                     
+        <table class="plans-table">
+            <thead>
+                <tr>
+                    <th>Benefícios</th>
+                    <th>Básico<br><span class="price"></span></th>
+                    <th>Completo<br><span class="price"></span></th>
+                    <th>Premium<br><span class="price"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                        <td class="highlight">Preço Mensal</td>
+                        <td class="price">9.500 AOA/mês</td>
+                        <td class="price">14.000 AOA/mês</td>
+                        <td class="price">50.000 AOA/mês</td>
+                    </tr>
+                <tr>
+                    <td class="highlight">Consultas Veterinárias</td>
+                    <td>3/ano</td>
+                    <td>6/ano</td>
+                    <td>Ilimitadas</td>
+                </tr>
+                <tr>
+                    <td class="highlight">Serviços de Estética</td>
+                    <td>1 banho/mês</td>
+                    <td>2 banhos + 1 tosa/mês</td>
+                    <td>4 banhos + 2 tosas/mês</td>
+                </tr>
+                <tr>
+                    <td>Daycare</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td>1 dia/mês</td>
+                    <td>2 dias/mês + hidratação</td>
+                </tr>
+                <tr>
+                    <td>Rastreador GPS</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td>6 meses grátis</td>
+                    <td>12 meses + app</td>
+                </tr>
+                <tr>
+                    <td>Descontos em Pet Shops</td>
+                    <td>10%</td>
+                    <td>20%</td>
+                    <td>30% + cashback</td>
+                </tr>
+                <tr>
+                    <td>Brindes Exclusivos</td>
+                    <td>Coleira PetBook</td>
+                    <td>Coleira + kit higiene</td>
+                    <td>Coleira premium + certificado VIP</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="#" class="btn btn-primary">Assinar</a></td>
+                    <td><a href="#" class="btn btn-primary">Assinar</a></td>
+                    <td><a href="#" class="btn btn-secondary">Assinar</a></td>
+                </tr>
+            </tbody>
+        </table>
         </div>
     </section>
 
@@ -862,7 +934,8 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Sim, você pode usar qualquer veterinário de sua preferência. No entanto, nossa rede credenciada oferece atendimento com desconto e processo de reembolso mais ágil.</p>
+                        <p>Sim, você pode usar qualquer veterinário de sua preferência. No entanto, nossa rede
+                            credenciada oferece atendimento com desconto e processo de reembolso mais ágil.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -871,7 +944,9 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Depende do plano escolhido. Para doenças pré-existentes, realizamos uma análise técnica que pode incluir carência adicional ou cobertura parcial. Entre em contato para mais detalhes.</p>
+                        <p>Depende do plano escolhido. Para doenças pré-existentes, realizamos uma análise técnica que
+                            pode incluir carência adicional ou cobertura parcial. Entre em contato para mais detalhes.
+                        </p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -880,7 +955,8 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Para consultas na rede credenciada, o desconto é aplicado diretamente. Para reembolsos, o prazo médio é de 5 dias úteis após a aprovação da documentação.</p>
+                        <p>Para consultas na rede credenciada, o desconto é aplicado diretamente. Para reembolsos, o
+                            prazo médio é de 5 dias úteis após a aprovação da documentação.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -889,7 +965,8 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Sim, não há fidelidade. O cancelamento pode ser feito a qualquer momento pelo aplicativo, com efeito no final do período mensal já pago.</p>
+                        <p>Sim, não há fidelidade. O cancelamento pode ser feito a qualquer momento pelo aplicativo, com
+                            efeito no final do período mensal já pago.</p>
                     </div>
                 </div>
             </div>
@@ -901,7 +978,7 @@
         <div class="container">
             <h2>Pronto para cuidar do seu pet?</h2>
             <p>Comece agora e garanta tranquilidade para você e seu melhor amigo.</p>
-           <!-- <a href="#plans" class="btn btn-secondary">Cotar Agora (Grátis)</a> -->
+            <!-- <a href="#plans" class="btn btn-secondary">Cotar Agora (Grátis)</a> -->
             <a href="#" class="btn btn-secondary">Baixar App</a>
         </div>
     </section>
@@ -955,17 +1032,18 @@
     </footer>
 
     <!-- Chatbot -->
+    <!-- 
     <div class="chatbot">
         <i class="fas fa-comment-dots"></i>
     </div>
-
+-->
     <script>
         // Testimonial Slider
         const testimonials = document.querySelectorAll('.testimonial');
         const prevBtn = document.querySelector('.prev-testimonial');
         const nextBtn = document.querySelector('.next-testimonial');
         let currentTestimonial = 0;
-        
+
         function showTestimonial(index) {
             testimonials.forEach(testimonial => {
                 testimonial.classList.remove('active');
@@ -973,7 +1051,7 @@
             testimonials[index].classList.add('active');
             currentTestimonial = index;
         }
-        
+
         prevBtn.addEventListener('click', () => {
             let newIndex = currentTestimonial - 1;
             if (newIndex < 0) {
@@ -981,7 +1059,7 @@
             }
             showTestimonial(newIndex);
         });
-        
+
         nextBtn.addEventListener('click', () => {
             let newIndex = currentTestimonial + 1;
             if (newIndex >= testimonials.length) {
@@ -989,7 +1067,7 @@
             }
             showTestimonial(newIndex);
         });
-        
+
         // Auto-rotate testimonials
         setInterval(() => {
             let newIndex = currentTestimonial + 1;
@@ -998,25 +1076,25 @@
             }
             showTestimonial(newIndex);
         }, 5000);
-        
+
         // FAQ Accordion
         const faqQuestions = document.querySelectorAll('.faq-question');
-        
+
         faqQuestions.forEach(question => {
             question.addEventListener('click', () => {
                 const answer = question.nextElementSibling;
                 const icon = question.querySelector('i');
-                
+
                 // Toggle answer
                 answer.classList.toggle('active');
-                
+
                 // Rotate icon
                 if (answer.classList.contains('active')) {
                     icon.style.transform = 'rotate(180deg)';
                 } else {
                     icon.style.transform = 'rotate(0deg)';
                 }
-                
+
                 // Close other answers
                 faqQuestions.forEach(otherQuestion => {
                     if (otherQuestion !== question) {
@@ -1026,15 +1104,15 @@
                 });
             });
         });
-        
+
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 if (targetId === '#') return;
-                
+
                 const targetElement = document.querySelector(targetId);
                 if (targetElement) {
                     window.scrollTo({
@@ -1044,16 +1122,17 @@
                 }
             });
         });
-        
+
         // Chatbot interaction
         const chatbot = document.querySelector('.chatbot');
-        
+
         chatbot.addEventListener('click', () => {
             alert('Olá! Sou a Bella, assistente virtual da PetBook. Como posso ajudar?');
         });
-        
+
         // Mobile menu toggle (would need additional HTML)
         // You can expand this to create a mobile menu if needed
     </script>
 </body>
+
 </html>
